@@ -43,7 +43,7 @@ var app = &cli.App{
 		},
 		&cli.StringFlag{
 			Name:    "endpoint-url",
-			Usage:   "override default S3 host for custom services",
+			Usage:   "override default S3 compatible host for custom services",
 			EnvVars: []string{"S3_ENDPOINT_URL"},
 		},
 		&cli.BoolFlag{
